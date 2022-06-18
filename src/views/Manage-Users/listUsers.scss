@@ -1,0 +1,40 @@
+.container {
+    .row {
+        .App--search {
+            margin-top: 10px;
+            input {
+                width: 70%;
+            }
+        }
+        .App--action__button {
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            button {
+                margin-left: 10px;
+                outline: none;
+            }
+        }
+    }
+
+    .table {
+        margin-top: 20px;
+        text-align: center;
+
+        th {
+            span {
+                i {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        td.action {
+            width: 20%;
+            button {
+                margin-left: 10px;
+            }
+        }
+    }
+}
